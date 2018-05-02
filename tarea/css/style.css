@@ -1,0 +1,181 @@
+
+body{
+	width: 100%;
+		background-image: url(../img/fondofinal.jpg);
+}
+	.row {
+  display: flex;
+}
+
+.column-1, .column-2 {
+  flex: 1;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(2,6,3,0.5);
+
+}
+.column-3{
+  flex: 1;
+  text-align: center;
+  padding: 100px;
+  text-align:center;
+  width:40%;
+
+}
+
+h2{
+	  font-family: 'Skranji', cursive;
+	  font-size:2em;
+	  color:white;
+}
+
+.row div img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+img {
+	width: 30%;
+	height: auto;
+	margin-top:-3%;
+}
+p{
+	font-family: avenir;
+	line-height: 150%;
+	margin-top: 4%;
+	color:white;
+}
+.logo{
+	margin-left:auto;
+	margin-right:auto;
+	display: flex;
+	margin-bottom:5%;
+	padding-top: 5%;
+	width:40%;
+}
+.logo2{
+	margin-left:auto;
+	margin-right:auto;
+	display: flex;
+	margin-bottom:5%;
+	padding-top: 5%;
+	width:40%;
+}
+
+.headerimg {
+	margin-left:auto;
+	margin-right:auto;
+	display: flex;
+	margin-bottom:5%;
+	padding-top: 7%;
+	width:40%;
+
+}
+
+.headerimg1 {
+	margin-left:auto;
+	margin-right:auto;
+	display: flex;
+	margin-bottom:5%;
+	padding-top: 7%;
+	width:60%;
+
+}
+
+
+.hola{
+	background-image: url(../img/header.jpg);
+	background-size: 100%;
+}
+
+.topnav {
+    background-color:#381800;
+    overflow: hidden;
+    color:white;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    padding:0.5%;
+    font-family: 'Skranji', cursive;
+	  font-size:1em;
+
+
+}
+.parrafo{
+	width:40%;
+	padding-left:30%;
+
+}
+
+a {
+	text-decoration:none;
+	color: white;
+	padding:0.5%;
+}
+
+a:hover {
+	background-color: green;
+}
+
+.canasta {
+	border-radius: 50%;
+    width:40%;
+    height:40%;
+    margin-top:5%;
+}
+
+ .register{
+ 	width: 100%;
+ 	
+
+ }
+
+ article{
+ 	margin-top:10%;
+ }
+
+ .twitter{
+ 	width:8%;
+ 	text-align: center;
+ 	flex:1;
+ 	margin-top: 2%;
+
+ }
+
+ .insta{
+ 	width:8%;
+ 	text-align: center;
+ 	flex:1;
+ 	margin-top: 2%;
+ }  
+
+ .gmail{
+ 	width: 8%;
+ 	text-align: center;
+ 	flex:1;
+ 	margin-top:2%;
+ } 
+ .article2 {
+  flex: 1;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(2,6,3,0.5);
+
+}
+
+.map{
+	flex: 1;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  width: 60%;
+  margin-top: -8%;
+
+}
+
+.info{
+	margin-left:30%;
+}
